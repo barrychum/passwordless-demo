@@ -1,7 +1,9 @@
 # Passwordless WebAuthn Demo with py_webauthn  
-[![Deploy to Railway](https://github.com/barrychum/passwordless/actions/workflows/deploy.yml/badge.svg)](https://github.com/barrychum/passwordless/actions/workflows/deploy.yml)
+[![Deploy to Railway](https://github.com/barrychum/passwordless-demo/actions/workflows/deploy.yml/badge.svg)](https://github.com/barrychum/passwordless-demo/actions/workflows/deploy.yml)
 
-This project demonstrates a basic implementation of a WebAuthn Relying Party (RP) using the [py_webauthn](https://github.com/duo-labs/py_webauthn) library, showcasing passwordless account registration and authentication.
+This project demonstrates a basic implementation of a WebAuthn Relying Party (RP) using the [py_webauthn](https://github.com/duo-labs/py_webauthn) library, showcasing passwordless account registration and authentication.  
+
+This is also a very basic CI/CD demonstration from pushing a source to github, validate the code, push the code to railway.app, build and finally deploy the application which can be access via the Internet.
 
 ## Why WebAuthn?
 
