@@ -41,7 +41,7 @@ This table highlights key differences, showing how phishing-resistant MFA provid
 
 Please visit this url to see it in actions. The demo shows the details of the requests, responses in each step of the process.  This can be very helpful to understand how it works.  
 
-https://barry-github-flask.up.railway.app/  
+https://barryc.eu.pythonanywhere.com/
 
 The user database will be reset half-daily.  
 
@@ -110,14 +110,14 @@ While WebAuthn offers significant security advantages like phishing resistance a
 
 ### Requirements
 
-- Python 3
+- Python 3 ( 3.12 or lower)
 - Modern web browser with WebAuthn support
 
 ### Installation
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/barrychum/passwordless.git
+   git clone https://github.com/barrychum/passwordless-demo.git
    cd passwordless
    ```
 
