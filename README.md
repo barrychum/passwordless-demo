@@ -2,8 +2,9 @@
 [![Deploy to Railway](https://github.com/barrychum/passwordless-demo/actions/workflows/deploy.yml/badge.svg)](https://github.com/barrychum/passwordless-demo/actions/workflows/deploy.yml)
 
 This project demonstrates a basic implementation of a WebAuthn Relying Party (RP) using the [py_webauthn](https://github.com/duo-labs/py_webauthn) library, showcasing passwordless account registration and authentication.  
-
+<!---
 This is also a very basic CI/CD demonstration from pushing a source to github, validate the code, push the code to railway.app, build and finally deploy the application which can be access via the Internet.
+-->
 
 ## Why WebAuthn?
 
@@ -43,7 +44,7 @@ Please visit this url to see it in actions. The demo shows the details of the re
 
 https://barryc.eu.pythonanywhere.com/
 
-The user database will be reset half-daily.  
+The user database will be cleared daily.  
 
 #### WebAuthn process
 WebAuthn (Web Authentication) is a standard for secure authentication on the web using public key cryptography. The process involves multiple steps to ensure a secure and user-friendly authentication mechanism. Here are the key steps involved in the WebAuthn process:
@@ -118,7 +119,7 @@ While WebAuthn offers significant security advantages like phishing resistance a
 1. Clone the repository:
    ```sh
    git clone https://github.com/barrychum/passwordless-demo.git
-   cd passwordless
+   cd passwordless-demo
    ```
 
 2. Set up a virtual environment and install dependencies:
